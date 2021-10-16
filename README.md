@@ -41,7 +41,7 @@ Los puertos por defecto usados en el proyecto y que se encuentran en el **.env**
 
 #### 1. Clonar el proyecto
 ```
-git clone https://gitlab.com/jaiportela/api-delilah.git
+git clone https://github.com/Tulio-Rangel/Restaurant_Project.git
 ```
 #### 2. Instalar las dependencias
 ```
