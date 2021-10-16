@@ -6,7 +6,7 @@ const swaggerOptions = {
         info: {
             title: "DELILAH API",
             description: "API para el restaurante DELILAH",
-            version: "0.0.1"
+            version: "0.3.0"
         },
         servers: [
             {
