@@ -73,11 +73,4 @@ El test se encuentra en la carpeta tests dentro de src.
 
 En la sección métodos de pago, el endpoint **get Métodos de Pago** se encuentra abierto tanto para clientes como para los administradores, ya que estos dos son los que deben de tener la posibilidad de ver los métodos pago, no solo los administradores. 
 
-## Credenciales
-
-|username|token|
-|-|-|
-|admin| eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNjMwNjk5ODY2fQ.oPeebf-K49hCgyds5R0KsJMIxGtPV0tBgWL664SP8ok|
-|client|eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsaWVudCIsImlhdCI6MTYzMDcwMDA3NH0.gbyVnQWlLkIXrv11eQ0eov67gQ6pVTLn9Zd-h_nELV0|
-
 **\* Autorizarse en Swagger con token**
