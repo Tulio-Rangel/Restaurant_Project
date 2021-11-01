@@ -10,7 +10,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: `http://ec2-3-222-115-22.compute-1.amazonaws.com`,
+                url: "../",
                 description: "Local server"
             },
         ],
