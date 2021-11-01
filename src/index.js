@@ -16,9 +16,13 @@ const ordersRoute = require('./routes/orders.route');
 const paymentMethod = require('./routes/paymentMethod.route');
 const { validateTokenMiddleware, errorMiddleware } = require('./middlewares/validateToken.middleware');
 const activeUserMiddleware = require('./middlewares/activeUser.middleware');
+const cspDefaults = helmet.contentSecurityPolicy.getDefaultDirectives();
+delete cspDefaults['upgrade-insecure-requests'];
 
 const app = express();
-app.use(helmet());
+app.use(helmet({
+    contentSecurityPolicy: { directives: cspDefaults }
+}));
 app.use(express.json());
 const PORT = config.PORT || 3000;
 
